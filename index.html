@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geometria nos Jogos</title>
+    <style>
+      body {
+        background-color: #0f172a;
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Oxygen,
+          Ubuntu,
+          Cantarell,
+          "Open Sans",
+          "Helvetica Neue",
+          sans-serif;
+          color: white;
+          margin: 0;
+          padding: 0;
+          line-height: 1.6;
+      }
+
+      .topo {
+        text-align: center;
+        padding: 60px 20px 20px 20px;
+        border: #94a3b8 2px solid;
+        border-radius: 8px;
+        margin: 40px auto 0 auto;
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      h1 {
+        color: #38bdf8;
+        font-size: 3.5rem;
+        margin: 0;
+      }
+
+      .topo p {
+        font-size: 1.2rem;
+        color: #94a3b8;
+        margin-top: 20px;
+        margin-bottom: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .content {
+        text-align: center;
+        margin-top: 60px;
+        border: 1px solid #94a3b8;
+        border-radius: 8px;
+        padding: 20px;
+      }
+
+      h2 {
+        color: #38bdf8;
+        font-size: 1.8rem;
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+
+      .content p {
+        font-size: 1.1rem;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+
+      .princ {
+        text-align: center;
+        margin-top: 60px;
+      }
+
+      .cabeça {
+        max-width: 800px;
+        margin: 70px auto 0 auto;
+        padding: 0 20px;
+      }
+
+      .sec-title {
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: #f1f5f9;
+        margin: 0 0 10px 0;
+      }
+
+      .sec-subtitle {
+        font-size: 1rem;
+        color: #94a3b8;
+        margin: 0;
+        max-width: 560px;
+      }
+
+      .sec-divider {
+        width: 48px;
+        height: 3px;
+        background: linear-gradient(90deg, #38bdf8, transparent);
+        border: none;
+        margin: 18px 0;
+        border-radius: 2px;
+      }
+      .final {
+        background-color: #000000;
+        text-align: center;
+        padding: 60px 20px 20px 20px;
+        border: #94a3b8 2px solid;
+        margin: 40px auto 0 auto;
+        padding: 20px;
+      }
+      #logo {
+        width: 70px;
+        height: 60px;
+        margin-top: 20px;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topo">
+      <h1>Geometria nos Jogos</h1>
+      <p>Explorando o que está por trás dos mundos virtuais.</p>
+    </div>
+
+    <div class="princ">
+      <h2>O que é a Geometria?</h2>
+      <p>
+        É um ramo da matemática que estuda as formas, tamanhos, posições
+        relativas e propriedades do espaço. <br />
+        Ela é fundamental para entender como os objetos se relacionam no mundo
+        físico e virtual, incluindo os jogos digitais. <br />No desenvolvimento
+        de jogos, a tela é o "plano", e cada elemento visual ou comando de
+        movimento nasce a partir desses conceitos espaciais.
+      </p>
+    </div>
+
+    <div class="cabeça">
+      <h2 class="sec-title">Geometria em ação</h2>
+      <p class="sec-subtitle">
+        Veja como formas, ângulos e medidas aparecem em mecânicas virtuais que
+        você já conhece, mesmo sem perceber.
+      </p>
+      <hr class="sec-divider" />
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <h2>Área e Perímetro</h2>
+        <p>Dois conceitos que aparecem o tempo todo nos jogos.</p>
+        <p>
+          <strong style="color: #38bdf8">Área</strong> é a superfície de uma
+          figura, o espaço que ela ocupa. Nos jogos, é o que define o tamanho de
+          uma fase, de um mapa ou de uma tela. A unidade é sempre ao quadrado:
+          cm², m², pixel².
+        </p>
+        <p>
+          <strong style="color: #38bdf8">Perímetro</strong> é o contorno dessa
+          figura, a soma de todos os seus lados. Pense em cercas ao redor de uma
+          base no Minecraft ou nos limites de um campo no FIFA.
+        </p>
+      </div>
+
+      <div class="content">
+        <h2>Quadriláteros nos cenários</h2>
+        <p>
+          Quadriláteros são figuras com 4 lados, 4 vértices e 4 ângulos. São a
+          base de praticamente todo cenário virtual 2D.
+        </p>
+        <ul
+          style="
+            text-align: left;
+            display: inline-block;
+            margin: 0 auto 16px auto;
+            padding-left: 20px;
+          "
+        >
+          <li>
+            <strong style="color: #38bdf8">Quadrado</strong> : 4 lados iguais, 4
+            ângulos retos | Área = L² | Perímetro = L+L+L+L = 4L
+          </li>
+          <li>
+            <strong style="color: #38bdf8">Retângulo</strong> : 2 pares de lados
+            iguais, 4 ângulos retos | Área = b × h | Perímetro = b+b + h+h
+          </li>
+          <li>
+            <strong style="color: #38bdf8">Paralelogramo</strong> : lados
+            opostos paralelos e iguais | Área = b × h | Perímetro = b+b + h+h
+          </li>
+          <li>
+            <strong style="color: #38bdf8">Trapézio</strong> : só um par de
+            lados paralelos | Área = (B+b) × h ÷ 2 | Perímetro = B+b+a+c
+          </li>
+          <li>
+            <strong style="color: #38bdf8">Losango</strong> : 4 lados iguais com
+            diagonais perpendiculares | Área = D×d ÷ 2 | Perímetro = 4L
+          </li>
+        </ul>
+        <p style="color: #ffffff; font-size: 0.95rem">
+          Por exemplo, no Tetris cada peça é formada por quadrados de mesmo
+          tamanho encaixados. O jogo inteiro é geometria de quadriláteros em
+          movimento.
+        </p>
+      </div>
+
+      <div class="content">
+        <h2>Triângulos</h2>
+        <p>
+          Triângulos têm 3 lados e 3 ângulos. São muito usados em gráficos 3D
+          porque qualquer superfície curva pode ser aproximada por triângulos (é
+          assim que funciona a malha poligonal dos personagens).
+        </p>
+        <p>
+          Para calcular a área, existem alguns caminhos dependendo do que você
+          sabe:
+        </p>
+        <ul
+          style="
+            text-align: left;
+            display: inline-block;
+            margin: 0 auto 16px auto;
+            padding-left: 20px;
+          "
+        >
+          <li>
+            <strong style="color: #38bdf8">Base e altura:</strong> A = (b × h) ÷
+            2
+          </li>
+          <li>
+            <strong style="color: #38bdf8"
+              >Só os lados (Fórmula de Heron):</strong
+            >
+            A = √(s⋅(s−a)⋅(s−b)⋅(s−c)), onde s = Perímetro ÷ 2
+          </li>
+          <li>
+            <strong style="color: #38bdf8">Triângulo equilátero</strong> (3
+            lados iguais): A = (l² × √3) ÷ 4
+          </li>
+          <li>
+            <strong style="color: #38bdf8"
+              >Raio da circunferência inscrita</strong
+            >
+            : A = s × r, onde r é o raio da circunferência inscrita.
+          </li>
+          <li>
+            <strong style="color: #38bdf8"
+              >Raio da circunferência circunscrita</strong
+            >
+            : A = (a × b × c) ÷ (4 × r), onde r é o raio da circunferência
+            circunscrita.
+          </li>
+        </ul>
+        <p>O perímetro é sempre a soma dos lados: P = a + b + c</p>
+      </div>
+
+      <div class="content">
+        <h2>Figuras circulares</h2>
+        <p>
+          O círculo é a região toda dentro de uma circunferência. A
+          circunferência é só a linha do contorno, pontos equidistantes do
+          centro.
+        </p>
+        <p>
+          Com o raio <strong style="color: #38bdf8">r</strong>, você calcula
+          tudo:
+        </p>
+        <ul
+          style="
+            text-align: left;
+            display: inline-block;
+            margin: 0 auto 16px auto;
+            padding-left: 20px;
+          "
+        >
+          <li>
+            <strong style="color: #38bdf8">Área do círculo:</strong> A = πr²
+          </li>
+          <li>
+            <strong style="color: #38bdf8"
+              >Comprimento da circunferência:</strong
+            >
+            C = 2πr
+          </li>
+          <li>
+            <strong style="color: #38bdf8">Setor circular</strong> (uma fatia):
+            Área do setor ÷ ângulo do setor = Área do círculo ÷ 360°
+          </li>
+          <li>
+            <strong style="color: #38bdf8">Coroa circular</strong> (o anel entre
+            dois círculos): A = (R² − r²) × π
+          </li>
+        </ul>
+        <p style="color: #ffffff; font-size: 0.95rem">
+          O radar de inimigos em jogos de tiro usa exatamente um setor circular
+          para indicar a direção e o alcance de detecção.
+        </p>
+      </div>
+      <br />
+
+      <div class="content">
+        <h2>Vídeo: Geometria em jogos</h2>
+        <video controls>
+          <source src="video.mp4" type="video/mp4" />
+          <!--Colocar vídeo depois-->
+          Seu navegador não suporta a reprodução de vídeos. Reproduza o vídeo
+          separadamente ou verifique se ele foi instalado corretamente.
+        </video>
+      </div>
+    </div>
+    <div class="final">
+      Feito por: Bernardo, Lukas, João e Carlos
+      <br />
+      <a
+        target="_blank"
+        href="https://unidavi.edu.br/?gad_source=1&gad_campaignid=13544082884&gbraid=0AAAAADlo2Frmrr6XS7bj16-AVAmTAibA4&gclid=Cj0KCQjw_7PRBhDcARIsAMjV7jk3_UBuWCfe4omMz63BhYk3BasMNu7DMPOaYY_Xl8BvYgV7snXPXVUaAq8CEALw_wcB"
+      >
+        <img
+          title="Unidavi"
+          alt="Logo da Unidavi"
+          id="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4xaNEBhLB2DF_zQk7OvIjwz0JJGbLS-1huUsOk9x3Q&s=10"
+        />
+      </a>
+    </div>
+  </body>
+</html>
